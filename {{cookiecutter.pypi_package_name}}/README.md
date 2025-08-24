@@ -13,6 +13,24 @@
 
 * TODO
 
+## Development Notes
+Create virtual environment and install packages:
+```
+uv venv
+uv sync
+```
+
+Install pre-commit (needs to be done in venv):
+```
+source .venv/bin/activate
+pre-commit install
+```
+
+Run Tests & Linters
+```
+nox
+```
+
 ## Credits
 
 This package was created with [Cookiecutter](https://github.com/audreyfeldroy/cookiecutter) and the [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.
